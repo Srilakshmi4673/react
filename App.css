@@ -1,0 +1,41 @@
+@media (max-width: 890px) {
+    .table-container {
+        overflow-x: auto;
+        
+    }
+    
+    .table {
+        width: 100%; 
+        position: relative;
+        top: 10px;
+    }
+
+    .table thead {
+        display: none; 
+    }
+
+    .table tr {
+        display: block;
+        margin-bottom: 20px; 
+    }
+
+    .table td {
+        display: block;
+        text-align: center;
+    }
+    
+} 
+
+
+
+/* Add a class for card styling */
+.card-table {
+    border: none;
+    border-radius: 0;
+    margin-bottom: 20px;
+    box-shadow: none;
+    background-color: rgba(0, 255, 255, 0.61);
+  }
+  
+ 
+  
